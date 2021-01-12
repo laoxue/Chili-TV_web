@@ -2,69 +2,53 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<div align=center><img src="http://aladjs.cn/dali_saymore.png" width="200"/></div>
 
-In the project directory, you can run:
+![Build Status](https://img.shields.io/badge/build-passing-green.svg)
+![Version 1.0.0](https://img.shields.io/badge/version-2.0.0-yellow.svg)
+[![License](https://img.shields.io/badge/license-GPL3.0-blue.svg)]()
 
-### `yarn start`
+### - [PC后台管理页面 Chili-TV_web](https://github.com/laoxue/Chili-TV_web) <= 这个客户端的管理后台
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+这个项目用来管理 [移动客户端页面 Chili-TV_client](https://github.com/laoxue/Chili-TV_client) 的后台操作，后面打算用作个人项目的管理中转站 后续功能待开发...
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [移动客户端页面 Chili-TV_client](https://github.com/laoxue/Chili-TV_client)  (基于Vue全家桶)
+- [服务端接口API Chili-TV_api](https://github.com/laoxue/Chili-TV_api) (基于Node Hapi框架 + Mongodb + Redis)
+- [PC后台管理页面 Chili-TV_web](https://github.com/laoxue/Chili-TV_web) (基于React + React-router + Ant-design)
 
-### `yarn test`
+此项目基于 React全家桶 功能暂时很少 后续会增加功能模块
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 功能页面
+- [x] 账号同步登陆 -- 完成
+- [x] 文章增删改查功能 -- 完成
 
-### `yarn build`
+# 页面预览
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<div align=center>
+<img src="http://aladjs.cn/web_login.png" width="800"/>
+</div>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<div align=center>
+<img src="http://aladjs.cn/web_article.png" width="800"/>
+</div>
+## 开发及部署文档
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+## 联系作者
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+> 大家有任何问题或者建议都可以在 [issues](https://github.com/laoxue/Chili-TV_api/issues) 中反馈给我，我会慢慢完善这个项目。
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- 我的邮箱：762452134@qq.com
+- 我的微信: zxqsychen2010
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# 总结
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1、其实页面很多地方还是需要优化整理的，工作时间较忙 业余时间搞的项目 图一方便，开发时本着功能至上先实现功能 后优化项目代码的想法开发的，所以代码抽时间会优化维护
 
-## Learn More
+2.本身其实还有很多好玩的功能框架已经勾勒出来了,但苦于时间问题 待后续慢慢实现。
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3.这个项目本身作为自我技术迭代，也希望能成为很多人入门的选择。项目本身不难，我希望通过用自己的想法想这个项目有趣起来。
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 感谢
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+所有项目中使用到的模块开发者
